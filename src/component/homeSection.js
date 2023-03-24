@@ -82,7 +82,7 @@ const HomeSection = () => {
                     <li class="list-group-item">Birth Date: {info.DoB}</li>
                     <li class="list-group-item">Ranking(bat): Test {ranking.testRank} , Odi {ranking.odiRank} , T20I {ranking.t20Rank}</li>
                     <li class="list-group-item">Ranking(bowl): Test {ranking2.testBestRank} , Odi {ranking2.odiBestRank} , T20I {ranking2.t20BestRank}</li>
-                    <li class="list-group-item"><img src={info.image} alt="player image" /></li>
+                    <li class="list-group-item"><img src={info.image} alt="player" /></li>
                 </ul>
             </div>
         </div>
